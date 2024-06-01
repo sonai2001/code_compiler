@@ -25,7 +25,7 @@ function App() {
         }
 
         try {
-            const response = await fetch('http://54.152.12.229/api/v1/submit', {
+            const response = await fetch('https://54.152.12.229/api/v1/submit', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',
